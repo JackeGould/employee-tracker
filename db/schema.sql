@@ -1,10 +1,3 @@
--- Set up schema
--- Create DB
--- Tables: Department , Role, ID
--- Department: ID (INT), Name (VARCHAR(30))
--- Role: ID (INT), Name (VARCHAR(30)), Salary (Decimal), Department_ID (INT)
--- Employee: ID (INT), First Name (VARCHAR(30)), Last Name (VARCHAR(30)), Role_ID (INT), Mangager (INT)
-
 DROP DATABASE IF EXISTS employee_db;
 CREATE DATABASE employee_db;
 
@@ -32,3 +25,19 @@ CREATE TABLE employee (
   FOREIGN KEY (role_id) REFERENCES role (id),
   FOREIGN KEY (manager_id) REFERENCES employee (id)
 );
+
+-- Set up schema
+-- Create DB
+-- Tables: Department , Role, ID
+-- Department: ID (INT), Name (VARCHAR(30))
+-- Role: ID (INT), Name (VARCHAR(30)), Salary (Decimal), Department_ID (INT)
+-- Employee: ID (INT), First Name (VARCHAR(30)), Last Name (VARCHAR(30)), Role_ID (INT), Mangager (INT)
+
+-- Terminal
+-- mysql -u root -p
+-- cd db
+-- source schema.sql
+-- source seeds.sql
+-- source query.sql
+-- cd employee-tracker
+-- node server.js
