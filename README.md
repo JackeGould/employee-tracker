@@ -36,9 +36,7 @@ SO THAT I can organize and plan my business
 
 Watch the video demo!
 
-<video width="600" controls>
-  <source src="https://drive.google.com/file/d/1Lj9nzBHJdQXYvcaC2qwrk1AhK2QXRDyN/view" type="video/mp4">
-</video>
+https://drive.google.com/file/d/1Lj9nzBHJdQXYvcaC2qwrk1AhK2QXRDyN/view?usp=sharing
 
 
 
